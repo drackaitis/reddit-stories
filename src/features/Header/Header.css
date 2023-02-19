@@ -1,0 +1,73 @@
+#banner {
+    margin: 1rem 0;
+    height: 8rem;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    font-weight: bolder;
+    font-size: 6rem;
+    background-color: #EEDCAE;
+    border: 1px solid black;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover {
+    color: purple;
+}
+
+#options {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 1rem 6.7rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#options #checklist {
+    width: fit-content;
+}
+
+#options fieldset {
+    display: flex;
+    gap: 2rem;
+    border-color: black;
+}
+
+#query {
+    width: 20rem;
+    height: 2.5rem;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 2px solid #343536;
+    border-right: unset;
+}
+
+#query-form {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-right: 3rem;
+}
+
+
+#query-form button {
+    font-weight: bold;
+    height: 2.5rem;
+    background-color: orange;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+@media only screen and (max-width: 1200px)  {
+    #banner {
+        height: auto;
+        padding: 0 1rem;
+    }
+
+    body {
+        min-width: 426px;
+    }
+}

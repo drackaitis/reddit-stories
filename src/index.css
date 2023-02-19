@@ -1,0 +1,26 @@
+html {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  width: 1050px;
+  text-align: center;
+  background-color: #EBC464;
+  font-family: 'IBM Plex Sans', sans-serif, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@media only screen and (max-width: 810px){
+  body {
+    margin-left: 1rem;
+  }
+}

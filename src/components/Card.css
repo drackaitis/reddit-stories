@@ -1,0 +1,59 @@
+.card {
+    display: flex;
+    background-color: #EEDCAE;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 30em;
+    height: 5em;
+}
+
+#cardlist {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 3.5rem ;
+    justify-content: center;
+}
+
+.votesbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    height: 100%;
+    background-color: #B89A4F;
+    font-weight: bold;
+}
+
+.post-details {
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.8rem;
+}
+
+.contentbox {
+    display: flex;
+    border-left: 1px solid black;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 90%;
+    height: 100%;
+}
+
+.titlebox {
+    margin: 10px;
+    overflow: auto;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.titlebox:hover {
+    color: purple;
+}
+
+.titlebox:visited {
+    color: darkblue;
+}
