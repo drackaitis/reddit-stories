@@ -1,6 +1,10 @@
 # Reddit Stories App
 
-This is a prototype web application for reading Reddit threads with minimal visual distractions. It is meant as read-only access to selected subreddits that focus on people's real-life experiences and troubles.
+This is a prototype web application for reading Reddit threads with minimal visual distractions. It provides read-only access to selected subreddits that focus on people's real-life experiences and troubles.
+
+The purpose of this app was to allow me to learn React and Redux for creating single-page applications and is closely tied to something I like to do, which is reading Reddit stories.
+
+Last changed made in 2022.
 
 ## Getting started
 
@@ -20,7 +24,10 @@ This react-app allows for following actions:
 
 ## Disclaimer
 
-This react-app is a prototype build meant for private use and as a portfolio project; proceed with that in mind.
+This react-app is a prototype build meant mostly for private use and as a portfolio project to show that I've worked with React. Keep your expectations low.
 
 ## License
 
+MIT
+
+Feel free to re-use my code in any way you like.
