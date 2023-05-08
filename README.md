@@ -4,7 +4,7 @@ This is a prototype web application for reading Reddit threads with minimal visu
 
 The purpose of this app was to allow me to learn React and Redux for creating single-page applications and is closely tied to something I like to do, which is reading Reddit stories.
 
-Last changed made in 2022.
+Last changes made in 2022.
 
 ## Getting started
 
